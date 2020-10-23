@@ -1,13 +1,12 @@
 import React from 'react'
+import Layout from './components/Layout'
 
 interface Props {}
 
 const App: React.FC<Props> = () => (
-  <>
-    <div className="container">
-      <button className="btn btn-primary">Submit</button>
-    </div>
-  </>
+  <Layout>
+    <button className="btn btn-primary">Submit</button>
+  </Layout>
 )
 
 export default App
