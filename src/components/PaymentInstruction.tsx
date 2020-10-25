@@ -1,16 +1,14 @@
 import React from 'react'
+import paymentInstruction from '../assets/payment-instruction.png'
 
-interface Props {
-  title: string
-}
+interface Props {}
 
-const Comp: React.FC<Props> = ({ title }) => (
-  <>
-    <h1 className="text-primary mb-3">{title}</h1>
-    <button className="btn btn-sm px-3 btn-outline-primary">
-      <i className="fa fa-share"></i> แชร์คอร์สนี้
-    </button>
-  </>
+const Comp: React.FC<Props> = () => (
+  <img
+    src={paymentInstruction}
+    className="img-fluid"
+    alt="Payment instruction"
+  />
 )
 
 export default Comp

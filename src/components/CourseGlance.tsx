@@ -11,30 +11,29 @@ const details = [
     icon: 'fa fa-check-square',
     text: 'เอกสารประกอบ',
   },
-  {
-    icon: 'fa fa-check',
-    text:
-      'เรียนรู้ขั้นตอนการสร้างเว็บไซต์ WordPress เพื่อขายของออนไลน์โดยเฉพาะ สอนวิธีสร้างเว็บตั้งแต่เริ่มต้น ทีละขั้นตอนแบบละเอียด และใช้ปลั๊กอิน Woocommerce แบบมืออาชีพ เพื่อให้เว็บของคุณใช้งานได้จริง',
-  },
+  // {
+  //   icon: 'fa fa-check',
+  //   text:
+  //     'เรียนรู้ขั้นตอนการสร้างเว็บไซต์ WordPress เพื่อขายของออนไลน์โดยเฉพาะ สอนวิธีสร้างเว็บตั้งแต่เริ่มต้น ทีละขั้นตอนแบบละเอียด และใช้ปลั๊กอิน Woocommerce แบบมืออาชีพ เพื่อให้เว็บของคุณใช้งานได้จริง',
+  // },
   {
     icon: 'fa fa-check',
     text: 'สอนการสร้างเว็บขายของออนไลน์ ด้วย WordPress + Woocommerce',
   },
   {
     icon: 'fa fa-comment-alt',
-    text: 'ได้สิทธิในการปรึกษาและสอบถามเพิ่มเติมจากผู้สอนได้โดยตรง',
+    text: 'ได้สิทธิในการปรึกษาและสอบถาม',
   },
   {
     icon: 'fa fa-user',
-    text:
-      'สอนโดย พัดวี อาจารย์สอนทำเว็บด้วย WordPress และการตลาดออนไลน์ และการปรับแต่ง SEO ชื่อดังของไทย',
+    text: 'สอนโดย พัดวี อาจารย์สอนทำเว็บด้วย WordPress และการตลาดออนไลน์',
   },
 ]
 
 interface Props {}
 
 const Comp: React.FC<Props> = () => (
-  <div className="card border-primary">
+  <div className="card border-primary course-glance">
     <div className="card-body text-center">
       <h3 className="card-title mb-3">3,500 บาท</h3>
       <button className="btn btn-lg mb-3 btn-primary px-4">
