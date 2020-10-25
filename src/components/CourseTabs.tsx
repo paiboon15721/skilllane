@@ -1,6 +1,7 @@
 import React from 'react'
 import PaymentInstruction from './PaymentInstruction'
 import ChatRoom from './ChatRoom'
+import CourseDetail from './CourseDetail'
 
 interface Props {}
 
@@ -54,7 +55,7 @@ const Comp: React.FC<Props> = () => (
         role="tabpanel"
         aria-labelledby="course-detail-tab"
       >
-        Detail
+        <CourseDetail />
       </div>
       <div
         className="tab-pane fade"
