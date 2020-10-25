@@ -1,0 +1,21 @@
+.instructor-card {
+  .avatar {
+    display: flex;
+    margin-bottom: 1rem;
+
+    img {
+      width: 40%;
+    }
+
+    p {
+      font-size: medium;
+      font-weight: 400;
+      color: $primary;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 2rem;
+  }
+}
