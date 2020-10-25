@@ -8,7 +8,12 @@ const Comp: React.FC<Props> = () => (
   <footer className="container pt-2 mb-md-4 mt-5 pt-md-3 border-top">
     <div className="row mt-4">
       <div className="col-12 col-lg">
-        <img src={logo} width="50%" className="mb-3" alt="skilllane logo" />
+        <img
+          src={logo}
+          width="50%"
+          className="img-fluid mb-3"
+          alt="skilllane logo"
+        />
         <ul className="list-unstyled text-small">
           <li className="text-muted">
             สถาบันออนไลน์ สำหรับคนที่ต้องการความก้าวหน้า สอนโดยผู้เชี่ยวชาญ
