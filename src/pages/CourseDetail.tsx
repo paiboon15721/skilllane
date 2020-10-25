@@ -4,6 +4,8 @@ import CoursePreview from '../components/CoursePreview'
 import CourseGlance from '../components/CourseGlance'
 import CourseTabs from '../components/CourseTabs'
 import InstructorDetail from '../components/InstructorDetail'
+import RelatedCourse from '../components/RelatedCourses'
+import CourseCurriculum from '../components/CourseCurriculum'
 
 interface Props {}
 
@@ -28,6 +30,12 @@ const Comp: React.FC<Props> = () => (
       </div>
       <div className="col-12 col-lg-4 mt-4">
         <InstructorDetail />
+      </div>
+      <div className="col-12 col-lg-8 mt-4">
+        <CourseCurriculum />
+      </div>
+      <div className="col-12 col-lg-4 mt-4">
+        <RelatedCourse />
       </div>
     </div>
   </>

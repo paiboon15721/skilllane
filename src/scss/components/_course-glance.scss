@@ -1,4 +1,9 @@
 .course-glance {
-  border-top-width: thick;
+  border: 1px solid $primary !important;
+  border-top-width: thick !important;
   min-height: 100%;
+
+  .card-text {
+    padding: 0 0 1rem 1.25rem;
+  }
 }

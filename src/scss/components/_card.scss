@@ -4,7 +4,11 @@
   .card-header {
     background-color: white;
     color: $primary;
-    font-size: 1.1rem;
-    padding: 0.5rem 1.25rem;
+    font-size: 1.2rem;
+    padding: 0.45rem 0.8rem;
+  }
+
+  .card-body {
+    padding: 1rem 0 0 0;
   }
 }

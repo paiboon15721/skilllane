@@ -4,7 +4,7 @@ interface Props {}
 
 const Comp: React.FC<Props> = () => (
   <div className="card">
-    <div className="card-header">คอร์สที่เกี่ยวข้อง</div>
+    <div className="card-header">เนื้อหาของคอร์สนี้</div>
     <div className="card-body">
       <h5 className="card-title">Primary card title</h5>
       <p className="card-text">
