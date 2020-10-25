@@ -3,6 +3,7 @@ import CourseBanner from '../components/CourseBanner'
 import CoursePreview from '../components/CoursePreview'
 import CourseGlance from '../components/CourseGlance'
 import CourseTabs from '../components/CourseTabs'
+import InstructorDetail from '../components/InstructorDetail'
 
 interface Props {}
 
@@ -26,7 +27,7 @@ const Comp: React.FC<Props> = () => (
         <CourseTabs />
       </div>
       <div className="col-12 col-lg-4 mt-4">
-        <CourseGlance />
+        <InstructorDetail />
       </div>
     </div>
   </>
