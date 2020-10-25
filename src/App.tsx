@@ -1,11 +1,12 @@
 import React from 'react'
 import Layout from './components/Layout'
+import CourseDetail from './pages/CourseDetail'
 
 interface Props {}
 
 const App: React.FC<Props> = () => (
   <Layout>
-    <button className="btn btn-primary">Submit</button>
+    <CourseDetail />
   </Layout>
 )
 
