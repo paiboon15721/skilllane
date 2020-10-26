@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Collapse } from 'react-collapse'
 
-interface Props {}
+interface DetailProps {
+  opened: boolean
+}
 
-const Comp: React.FC<Props> = () => (
-  <>
+const Detail: React.FC<DetailProps> = ({ opened }) => (
+  <div
+    style={
+      opened
+        ? { height: 'auto', overflow: 'initial' }
+        : { height: 195, overflow: 'hidden' }
+    }
+  >
     <p>
       <span className="font-italic mr-2">
         คอร์สออนไลน์สอนสร้างเว็บขายของออนไลน์ ด้วย WordPress + Woocommerce
@@ -38,7 +47,28 @@ const Comp: React.FC<Props> = () => (
       นับจากวันที่ลงเรียนคอร์สนี้ (วิธีการจะอยู่ในอีเมลที่ SkillLane ส่งให้
       หลังจากชำระเงินเสร็จเรียบร้อยแล้ว)
     </p>
-  </>
+  </div>
 )
+
+interface Props {}
+
+const Comp: React.FC<Props> = () => {
+  const [opened, setOpened] = useState(false)
+
+  return (
+    <>
+      <Collapse isOpened>
+        <Detail opened={opened} />
+      </Collapse>
+      <button
+        type="button"
+        onClick={() => setOpened(!opened)}
+        className="btn btn-link mt-3"
+      >
+        {opened ? 'ซ่อน' : 'อ่านทั้งหมด'}
+      </button>
+    </>
+  )
+}
 
 export default Comp
