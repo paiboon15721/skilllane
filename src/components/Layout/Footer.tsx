@@ -1,6 +1,11 @@
 import React from 'react'
 import logo from '../../assets/logo.png'
 import FooterColumn from './FooterColumn'
+import visa from '../../assets/visa.png'
+import masterCard from '../../assets/master_card.svg'
+import paypal from '../../assets/paypal.png'
+import amazon from '../../assets/amazon.png'
+import omise from '../../assets/omise.svg'
 
 interface Props {}
 
@@ -51,8 +56,12 @@ const Comp: React.FC<Props> = () => (
           ]}
         />
       </div>
-      <div className="col-12 border-top mt-3 text-center">
-        <small className="d-block text-muted my-4">Payment Logo here.</small>
+      <div className="col-12 payment-methods border-top mt-3 pt-3 text-center">
+        <img src={visa} alt="visa" />
+        <img src={masterCard} alt="master card" />
+        <img src={paypal} alt="paypal" />
+        <img src={amazon} alt="amazon" />
+        <img src={omise} alt="omise" />
       </div>
     </div>
   </footer>
