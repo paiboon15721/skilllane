@@ -7,7 +7,7 @@ interface Props {}
 
 const Comp: React.FC<Props> = () => (
   <>
-    <ul className="nav nav-tabs" id="myTab" role="tablist">
+    <ul className="nav nav-tabs course-tabs" id="myTab" role="tablist">
       <li className="nav-item">
         <a
           className="nav-link active"
