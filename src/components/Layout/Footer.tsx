@@ -10,7 +10,7 @@ import omise from '../../assets/omise.svg'
 interface Props {}
 
 const Comp: React.FC<Props> = () => (
-  <footer className="container pt-2 mb-md-4 mt-5 pt-md-3 border-top">
+  <footer className="container pt-2 mb-3 mt-5 pt-md-3 border-top">
     <div className="row mt-4">
       <div className="col-12 col-lg">
         <img

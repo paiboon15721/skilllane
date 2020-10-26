@@ -29,6 +29,12 @@
           justify-content: space-between;
           width: 12rem;
 
+          p {
+            text-align: right;
+            width: 2.5rem;
+            margin-left: 0.5rem;
+          }
+
           .icons {
             display: flex;
             flex-flow: row nowrap;

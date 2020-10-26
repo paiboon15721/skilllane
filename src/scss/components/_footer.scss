@@ -4,8 +4,15 @@ footer {
     justify-content: center;
 
     img {
-      height: 27px;
-      margin: 0 0.5rem;
+      height: 17px;
+      margin: 0 0.2rem;
+    }
+
+    @include media-breakpoint-up(sm) {
+      img {
+        height: 27px;
+        margin: 0 0.5rem;
+      }
     }
   }
 }
