@@ -6,7 +6,7 @@ This project was bootstrapped with Create React App.
 
 ![Skill Lane](https://raw.githubusercontent.com/paiboon15721/skilllane/main/screenshot.png)
 
-## Deme
+## Demo
 
 [https://skilllane.secretsrc.com](https://skilllane.secretsrc.com)
 
