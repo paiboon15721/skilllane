@@ -2,7 +2,6 @@
   "name": "skilllane",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://paiboon15721.github.io/skilllane",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,6 +13,7 @@
     "@types/react-collapse": "^5.0.0",
     "@types/react-dom": "^16.9.0",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
@@ -21,6 +21,7 @@
     "react-collapse": "^5.0.1",
     "react-dom": "^16.9.0",
     "react-scripts": "3.4.4",
+    "rimraf": "^3.0.2",
     "typescript": "~3.7.2"
   },
   "scripts": {
