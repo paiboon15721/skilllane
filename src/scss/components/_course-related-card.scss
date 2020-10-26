@@ -1,0 +1,28 @@
+.course-related-card {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+  background-color: #f2f8fa;
+  cursor: pointer;
+
+  img {
+    margin-right: 0.5rem;
+    width: 120px;
+    max-height: 72px;
+  }
+
+  .course-detail {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+    p {
+      line-height: 1rem;
+      margin: 0;
+    }
+
+    .course-instructor {
+      font-size: 0.8rem;
+    }
+  }
+}
