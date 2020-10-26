@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/skilllane/static/css/main.42944f04.chunk.css",
+    "main.js": "/skilllane/static/js/main.1c926152.chunk.js",
+    "main.js.map": "/skilllane/static/js/main.1c926152.chunk.js.map",
+    "runtime-main.js": "/skilllane/static/js/runtime-main.ce0651ed.js",
+    "runtime-main.js.map": "/skilllane/static/js/runtime-main.ce0651ed.js.map",
+    "static/js/2.16937c3d.chunk.js": "/skilllane/static/js/2.16937c3d.chunk.js",
+    "static/js/2.16937c3d.chunk.js.map": "/skilllane/static/js/2.16937c3d.chunk.js.map",
+    "index.html": "/skilllane/index.html",
+    "precache-manifest.ff103b2a23689fd9a60d26f5d9de2987.js": "/skilllane/precache-manifest.ff103b2a23689fd9a60d26f5d9de2987.js",
+    "service-worker.js": "/skilllane/service-worker.js",
+    "static/css/main.42944f04.chunk.css.map": "/skilllane/static/css/main.42944f04.chunk.css.map",
+    "static/js/2.16937c3d.chunk.js.LICENSE.txt": "/skilllane/static/js/2.16937c3d.chunk.js.LICENSE.txt",
+    "static/media/banner.png": "/skilllane/static/media/banner.ab0cf149.png",
+    "static/media/excel-macro.png": "/skilllane/static/media/excel-macro.9413c42c.png",
+    "static/media/excel-macro2.png": "/skilllane/static/media/excel-macro2.81079864.png",
+    "static/media/custom.scss": "/skilllane/static/media/fa-solid-900.8e1ed89b.woff2",
+    "static/media/instructor.png": "/skilllane/static/media/instructor.437b9c07.png",
+    "static/media/master_card.svg": "/skilllane/static/media/master_card.d68efbd2.svg",
+    "static/media/omise.svg": "/skilllane/static/media/omise.ca0a6a63.svg",
+    "static/media/payment-instruction.png": "/skilllane/static/media/payment-instruction.619c2319.png",
+    "static/media/ppt.png": "/skilllane/static/media/ppt.4cdf3d30.png",
+    "static/media/seo.png": "/skilllane/static/media/seo.a29bf4b5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce0651ed.js",
+    "static/js/2.16937c3d.chunk.js",
+    "static/css/main.42944f04.chunk.css",
+    "static/js/main.1c926152.chunk.js"
+  ]
+}
