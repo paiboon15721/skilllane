@@ -63,7 +63,8 @@ const Comp: React.FC<Props> = () => {
       <button
         type="button"
         onClick={() => setOpened(!opened)}
-        className="btn btn-link mt-3"
+        className="btn btn-sm btn-outline-primary mt-3"
+        style={{ width: '100%' }}
       >
         {opened ? 'ซ่อน' : 'อ่านทั้งหมด'}
       </button>
